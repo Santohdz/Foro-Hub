@@ -1,4 +1,4 @@
-# 🚀 Foro Hub - API REST
+# Foro Hub - API REST
 
 [![Java](https://img.shields.io/badge/Java-24-orange.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.3-brightgreen.svg)](https://spring.io/projects/spring-boot)
@@ -7,7 +7,7 @@
 
 > API REST moderna para gestión de foros de discusión desarrollada con Spring Boot 3.x, JWT authentication y MySQL.
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Descripción](#-descripción)
 - [Características](#-características)
@@ -19,7 +19,7 @@
 - [Estructura del Proyecto](#-estructura-del-proyecto)
 - [Licencia](#-licencia)
 
-## 🎯 Descripción
+## Descripción
 
 Foro Hub es una API REST completa para la gestión de foros de discusión. Permite crear, listar, actualizar y eliminar tópicos con un sistema robusto de autenticación JWT y validaciones de datos.
 
@@ -34,7 +34,7 @@ Foro Hub es una API REST completa para la gestión de foros de discusión. Permi
 - 🔍 **Filtros** - Búsqueda por curso y año
 - 📋 **Logging** - Trazabilidad completa
 
-## 🛠 Tecnologías
+## Tecnologías
 
 | Tecnología | Versión | Propósito |
 |------------|---------|-----------|
@@ -48,7 +48,7 @@ Foro Hub es una API REST completa para la gestión de foros de discusión. Permi
 | Lombok | 1.18.x | Reducción de boilerplate |
 | Maven | 3.x | Gestión de dependencias |
 
-## 🚀 Instalación
+## Instalación
 
 ### Prerrequisitos
 
@@ -81,7 +81,7 @@ Foro Hub es una API REST completa para la gestión de foros de discusión. Permi
    mvn spring-boot:run
    ```
 
-## ⚙️ Configuración
+## Configuración
 
 ### Variables de Entorno (Opcionales)
 
@@ -109,7 +109,7 @@ La aplicación viene preconfigurada para funcionar inmediatamente:
 - **Puerto**: 8080
 - **JWT**: Clave por defecto (cambiar en producción)
 
-## 🎮 Uso
+## Uso
 
 ### Credenciales por Defecto
 
@@ -127,9 +127,9 @@ La aplicación viene preconfigurada para funcionar inmediatamente:
 3. **Usar token** en header `Authorization: Bearer <token>`
 4. **Realizar operaciones** CRUD en `/topicos`
 
-## 📡 API Endpoints
+## API Endpoints
 
-### 🔐 Autenticación
+### Autenticación
 
 | Método | Endpoint | Descripción | Auth |
 |--------|----------|-------------|------|
@@ -142,7 +142,7 @@ curl -X POST http://localhost:8080/login \
   -d '{"username":"admin","password":"123456"}'
 ```
 
-### 📝 Tópicos
+### Tópicos
 
 | Método | Endpoint | Descripción | Auth |
 |--------|----------|-------------|------|
@@ -166,7 +166,7 @@ curl -X POST http://localhost:8080/topicos \
   }'
 ```
 
-### 📊 Modelos de Datos
+### Modelos de Datos
 
 #### Tópico
 ```json
@@ -187,7 +187,7 @@ curl -X POST http://localhost:8080/topicos \
 - `RESUELTO` - Problema solucionado
 - `EN_PROGRESO` - En proceso
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 src/main/java/com/Foro/Hub/Foro/Hub/
@@ -221,7 +221,7 @@ src/main/java/com/Foro/Hub/Foro/Hub/
     └── TopicoService.java
 ```
 
-## 🔒 Seguridad
+## Seguridad
 
 - 🔐 **JWT Authentication** con expiración configurable
 - 🛡️ **BCrypt** para hash de passwords
@@ -230,7 +230,7 @@ src/main/java/com/Foro/Hub/Foro/Hub/
 - 📝 **Logging** de eventos de seguridad
 - 🔧 **Variables de entorno** para secretos
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
 
