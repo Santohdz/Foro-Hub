@@ -55,6 +55,7 @@
 			<artifactId>flyway-mysql</artifactId>
 		</dependency>
 
+<<<<<<< HEAD
 		<!-- JWT Dependencies -->
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
@@ -74,6 +75,8 @@
 			<scope>runtime</scope>
 		</dependency>
 
+=======
+>>>>>>> 39f6e722b6b7b577c212f357fecc4eadb77e2501
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>

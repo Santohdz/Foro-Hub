@@ -1,6 +1,10 @@
 HELP.md
 target/
+<<<<<<< HEAD
 !.mvn/wrapper/maven-wrapper.jar
+=======
+.mvn/wrapper/maven-wrapper.jar
+>>>>>>> 39f6e722b6b7b577c212f357fecc4eadb77e2501
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -31,6 +35,7 @@ build/
 
 ### VS Code ###
 .vscode/
+<<<<<<< HEAD
 
 ### OS ###
 .DS_Store
@@ -77,3 +82,5 @@ secrets/
 ### Backup files ###
 *.bak
 *.backup
+=======
+>>>>>>> 39f6e722b6b7b577c212f357fecc4eadb77e2501
